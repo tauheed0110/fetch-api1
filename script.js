@@ -74,11 +74,11 @@ function PromiseAPI2(){
                     tbody2.innerHTML += `
                     <tr>
                         <td>${product.id}</td>
-                        <td>${product.image}</td>
+                        <td><img src="${product.images[0]}" alt="img.." height="100px" width="140px"></td>
                         <td>${product.title}</td>
                         <td>${product.description}</td>
-                        <td>${product.price}</td>
-                        <td>${product.rating}</td>
+                        <td>$${product.price}/-</td>
+                        <td>${product.rating}/5</td>
                     </tr>
                     `;
                 })
