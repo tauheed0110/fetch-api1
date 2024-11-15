@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <button onclick="promiseChain()">Click Me</button>
+    <div id="container">
+        <!-- table 1 -->
+        <table id="posts" style="display: none;">
+            <caption>The List of Posts</caption>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Likes/Dislikes</th>
+                    <th>Views</th>
+                </tr>
+            </thead>
+            <tbody id="posts-output">
+                <!-- render the data here -->
+                
+            </tbody>
+        </table>
+        <!-- table 2 -->
+        <table id="products" style="display: none;">
+            <caption>The List of Products</caption>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody id="products-output">
+                <!-- render the data here -->
+            </tbody>
+        </table>
+        <!-- table 3 -->
+        <table id="todos" style="display: none;">
+            <caption>The List of Todos</caption>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Todo</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="todos-output">
+                <!-- render the data here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
